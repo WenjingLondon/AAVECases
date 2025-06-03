@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+This repository is based on an in-depth study of the Aave Protocol and demonstrates several practical case studies aimed at deepening the understanding of its mechanisms. The exercises are designed to explore how Aave’s core data and logic can be leveraged for building more effective strategies, particularly for yield aggregator applications.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Included Case Studies:
 
-Try running some of the following tasks:
+Retrieve key asset data such as APY, LTV, and liquidation threshold
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Simulate a wallet’s Supply & Borrow state for risk analysis
+
+Simulate asset deposits and calculate projected 30-day earnings (Compound interest logic)
+
+Implement a minimal strategy contract that connects to Aave, automates deposits, and fetches yield
+
+Combine multiple Aave token strategies and construct a weighted return analysis function
